@@ -11,7 +11,7 @@ import Wrapper from "./components/Wrapper";
 import "./App.css";
 
 function App() {
-  document.title = "Wikipedia Searcher";
+  document.title = "React Portfolio";
   return (
     <Router>
       <div>

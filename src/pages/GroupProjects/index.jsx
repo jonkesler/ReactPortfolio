@@ -2,6 +2,11 @@ import React from "react";
 import fusent2 from '../../images/FusEnt2.png';
 import fusent4 from '../../images/FusEnt4.png';
 import fusent3 from '../../images/FusEnt3.png';
+import GaCovid from '../../images/GaCovid.png';
+import GaCovid2 from '../../images/GaCovid2.png';
+import GaCovid3 from '../../images/GaCovid3.png';
+import "./style.css";
+import { Route } from "react-router-dom";
 
 export default class Contact extends React.Component {
 	render() {
@@ -19,22 +24,25 @@ export default class Contact extends React.Component {
 										<div class="col-sm-6 col-md-6 col-lg-6">
 											<div class="card">
 												<p class="card-text2"><h5>Contributors</h5>
-													<p2>Nick Johnson ~ Spotify API </p2>
-													<p2>Breana Hannah~ YouTube API</p2>
-													<p2>Jon Kesler ~ News APO</p2>
-													<p2>Website: https://jonkesler.github.io/fusion-entertainment/</p2>
-													<p2>Repository: https://github.com/jonkesler/fusion-entertainment.git</p2>
+												<ul><li><p2>Nick Johnson ~ Spotify API </p2></li>
+												<li><p2>Breana Hannah~ YouTube API</p2></li>
+												<li><p2>Jon Kesler ~ News APO</p2></li>
+												<li><p2><a href="https://jonkesler.github.io/fusion-entertainment/">Website: https://jonkesler.github.io/fusion-entertainment/</a></p2></li>
+												<li><p2><a href="https://github.com/jonkesler/fusion-entertainment.git">Repository: https://github.com/jonkesler/fusion-entertainment.git</a></p2></li>
+												</ul>
 													</p>
 											</div>
 										</div>
 										<div class="col-sm-6 col-md-6 col-lg-6">
 											<div class="card">
 												<p class="card-text2"><h5>Challanges</h5>
-													<p2>Spotify API token</p2>
-													<p2>GitHub Repository</p2>
-													<p2>Time to work more together on layout.</p2>  
-				
+												<ul><li><p2>Spotify API token</p2></li>
+												<li><p2>GitHub Repository</p2></li>
+												<li><p2>Time to work more together on layout.</p2>  </li>
+												</ul>
 													</p>
+													<br />
+													<br />
 											</div>
 										</div>
 									</div>
@@ -78,23 +86,24 @@ export default class Contact extends React.Component {
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <div class="card">
                                 <p class="card-text2"><h5>Contributors</h5>
-                                    <p2>Annastasshia Ames ~  Scrum Lord / Handlebars Wizard</p2>
-                                    <p2>Kelli Jarell ~ Design / New tech Researcher</p2>
-                                    <p2>Jon Kesler ~ Database Master</p2>
-                                    <p2>Website: https://warm-badlands-80819.herokuapp.com/</p2>
-                                    <p2>Repository: https://github.com/Annastasshia/GeorgiaCovid</p2>
+                                    <ul><li><p2>Annastasshia Ames ~  Scrum Lord / Handlebars Wizard</p2></li>
+                                    <li><p2>Kelli Jarell ~ Design / New tech Researcher</p2></li>
+                                    <li><p2>Jon Kesler ~ Database Master</p2></li>
+                                    <li><p2><a href="https://warm-badlands-80819.herokuapp.com/">Website: https://warm-badlands-80819.herokuapp.com/</a></p2></li>
+                                    <li><p2><a href="https://github.com/Annastasshia/GeorgiaCovid">Repository: https://github.com/Annastasshia/GeorgiaCovid</a></p2></li>
+									</ul>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-lg-6">
                                 <div class="card">
                                 <p class="card-text2"><h5>Challanges</h5>
-                                    <p2>TRAVIS</p2>
-                                    <p2>Sequelize</p2>
-                                    <p2>Postman</p2>
-                                    <p2>Locating the source of the state Covid Data and an API to retrieve it.</p2>
-                                    <p2>Time for more in-depth technology research/practice.</p2>  
-
+								<ul><li><p2>TRAVIS</p2></li>
+								<li><p2>Sequelize</p2></li>
+								<li><p2>Postman</p2></li>
+								<li><p2>Locating the source of the state Covid Data and an API.</p2></li>
+								<li><p2>Time for more in-depth technology research/practice.</p2></li>
+								</ul>
                                     </p>
                                 </div>
                             </div>
@@ -106,7 +115,7 @@ export default class Contact extends React.Component {
                             <div class="card">
                                 <div class="card-body">
                                     <div class="card-img">
-                                    <img src="./assets/images/GaCovid.png" class="card-img-top img-fluid" alt="Password Generator image" />
+                                    <img src={GaCovid} class="card-img-top img-fluid" alt="Password Generator image" />
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +124,7 @@ export default class Contact extends React.Component {
                             <div class="card">
                                 <div class="card-body">
                                     <div class="card-img">
-                                    <img src="./assets/images/GaCovid2.png" class="card-img-top img-fluid" alt="Password Generator image" />
+                                    <img src={GaCovid2} class="card-img-top img-fluid" alt="Password Generator image" />
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +133,7 @@ export default class Contact extends React.Component {
                             <div class="card">
                                 <div class="card-body">
                                     <div class="card-img">
-                                    <img src="./assets/images/GaCovid3.png" class="card-img-top img-fluid" alt="Password Generator image"/>
+                                    <img src={GaCovid3} class="card-img-top img-fluid" alt="Password Generator image"/>
                                     </div>
                                 </div>
                             </div>
