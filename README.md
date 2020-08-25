@@ -20,10 +20,9 @@ This updated site allows the user to view my various projects, group projects an
 ## Table of Contents
     
 * [Installation](#installation)
-* [Usage](#usage)
+* [Demo](#demo)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Contact](#contact)
     
     
